@@ -1,0 +1,5 @@
+{
+    "zipp-say": {"master": "general", "sounds": ["zipp-say1", "zipp-say2"]},
+    "zipp-hurt": {"master": "general", "sounds": ["zipp-hurt1", "zipp-hurt2"]},
+    "zipp-death": {"master": "general", "sounds": ["zipp-death1", "zipp-death2", "zipp-death3"]}
+}

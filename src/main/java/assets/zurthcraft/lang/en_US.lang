@@ -1,0 +1,67 @@
+item.zurthcraft:zurditedust.name=Zuridium Dust
+item.zurthcraft:zurditeingot.name=Zuridium Ingot
+item.zurthcraft:zurditenugget.name=Zuridium Nugget
+item.zurthcraft:rawzippmeat.name=Raw Zipp Meat
+item.zurthcraft:cookedzippmeat.name=Cooked Zipp Meat
+item.zurthcraft:zurditepickaxe.name=Zuridium Pickaxe
+item.zurthcraft:zurditeaxe.name=Zuridium Axe
+item.zurthcraft:zurditeshovel.name=Zuridium Shovel
+item.zurthcraft:zurditehoe.name=Zuridium Hoe
+item.zurthcraft:zurditecircuit.name=Zuridium Circuit
+item.zurthcraft:zurditesword.name=Zuridium Sword
+item.zurthcraft:sulfur.name=Sulfur
+item.zurthcraft:zincchunk.name=Chunk of Zinc
+item.zurthcraft:zincingothg.name=Zinc Ingot
+item.zurthcraft:zincingotshg.name=Zinc Ingot
+item.zurthcraft:zincnugget.name=Zinc Nugget
+item.zurthcraft:alumina.name=Alumina
+item.zurthcraft:copperingot.name=Copper Ingot
+item.zurthcraft:coppernugget.name=Copper Nugget
+item.zurthcraft:brassingot.name=Brass Ingot
+item.zurthcraft:brassnugget.name=Brass Nugget
+item.zurthcraft:steelingot.name=Steel Ingot
+item.zurthcraft:steelnugget.name=Steel Nugget
+item.zurthcraft:steelingotacidic.name=Steel Ingot
+item.zurthcraft:steelingotclean.name=Steel Ingot
+item.zurthcraft:steelingotfluxed.name=Steel Ingot
+item.zurthcraft:steelingotgalvanized.name=Galvanized Steel Ingot
+item.zurthcraft:steelingotpickled.name=Steel Ingot
+item.zurthcraft:steelingotscaled.name=Steel Ingot
+item.zurthcraft:zincammoniumchloride.name=Zinc Ammonium Chloride
+
+
+tile.zurthcraft:quenchMultiBlock.name=Quench Tank Block
+tile.zurthcraft:quenchtank.name=Quench Tank
+tile.zurthcraft:zurditeore.name=Zuridium Ore
+tile.zurthcraft:zurditeoreend.name=Zuridium Ore
+tile.zurthcraft:zurditeorenether.name= Zuridium Ore
+tile.zurthcraft:zurditelamp.name=Zuridium Lamp
+tile.zurthcraft:blockofzurdite.name=Block of Zuridium
+tile.zurthcraft:electricfurnace.name=Electric Furnace
+tile.zurthcraft:zincore.name=Poor Zinc Ore
+tile.zurthcraft:richzincore.name=Concentrated Zinc Ore
+tile.zurthcraft:blockofzinc.name=Block of Zinc
+tile.zurthcraft:bauxiteore.name=Bauxite Ore
+tile.zurthcraft:electrostaticgenerator.name=Electrostatic Generator
+tile.zurthcraft:copperore.name=Copper Ore
+tile.zurthcraft:blockofcopper.name=Block of Copper
+tile.zurthcraft:blockofsteel.name=Block of Steel
+tile.zurthcraft:blockofbrass.name=Block of Brass
+tile.zurthcraft:quenchtankblock.name=Quench Tank Block
+tile.zurthcraft:zippstone.name=Zipp Stone
+tile.zurthcraft:coppercable.name=Copper Cable
+tile.zurthcraft:alloysmelteractive.name=Alloy Smelter
+tile.zurthcraft:alloysmelteridle.name=Alloy Smelter
+tile.zurthcraft:alabasterwood.name=Alabaster Wood
+tile.zurthcraft:alabasterplank.name=Alabaster Planks
+tile.zurthcraft:alabastersapling.name=Alabaster Sapling
+
+container.alloysmelter=Alloy Smeltery
+entity.Zipp.name=Zipp
+
+
+
+
+
+
+itemGroup.zurthcraft=ZurthCraft Main
