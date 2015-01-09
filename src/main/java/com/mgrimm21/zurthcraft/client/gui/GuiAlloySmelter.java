@@ -44,6 +44,7 @@ public class GuiAlloySmelter extends GuiContainer{
 		Minecraft.getMinecraft().getTextureManager().bindTexture(texture);
 		drawTexturedModalRect(guiLeft, guiTop, 0, 0, xSize, ySize);
 		
+		
 		int intWater = alloysmelter.getWaterRemainingScaled(64);
 		//LogHelper.info(intWater);
 			drawTexturedModalRect(guiLeft + 17, guiTop + 60 - intWater, 177, 59 - intWater, 16, intWater);
