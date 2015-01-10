@@ -208,7 +208,7 @@ public class TileEntityAlloySmelter extends TileEntity implements ISidedInventor
 		} 
 		if (slot == 1 || slot == 3 || slot == 4) {
 			return true;
-		} else if (slot == 6 && hasautomationupgrade){
+		} else if (slot == 6 && hasUpgrades()){
 			return true;
 		}
 	
