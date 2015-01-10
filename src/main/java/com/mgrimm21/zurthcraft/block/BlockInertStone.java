@@ -12,12 +12,13 @@ import net.minecraft.world.World;
 import com.mgrimm21.zurthcraft.zurthcraft;
 import com.mgrimm21.zurthcraft.init.ModBlocks;
 import com.mgrimm21.zurthcraft.init.ModItems;
+import com.mgrimm21.zurthcraft.reference.Names;
 
 public class BlockInertStone extends BlockZurthCraft{
 	
 	public BlockInertStone() {
 		super(Material.rock);
-		this.setBlockName("inertstone");
+		this.setBlockName(Names.INERTSTONE);
 	}
 	
 	@Override

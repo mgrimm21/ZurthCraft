@@ -18,10 +18,14 @@ import com.mgrimm21.zurthcraft.init.ModBlocks;
 import com.mgrimm21.zurthcraft.init.ModItems;
 import com.mgrimm21.zurthcraft.reference.Reference;
 import com.mgrimm21.zurthcraft.util.LogHelper;
+import com.mojang.realmsclient.dto.PlayerInfo;
 
 public class TileEntityAlloySmelter extends TileEntity implements ISidedInventory{
 	private ItemStack slots[];
 	private String customName;
+	private int xx;
+	private int yy;
+	private int zz;
 	private final int STACKLIMIT = 64;
 	private final int SLOTSNUM = 6;
 	private int currentfuelslot; //0 = water 1 = nothing 2 = lava
@@ -273,6 +277,7 @@ public class TileEntityAlloySmelter extends TileEntity implements ISidedInventor
 		boolean removedWater = false;
 		boolean removedLava = false;
 		boolean flag = false;
+		boolean flag2 =false;
 		//checkUpgrades();
 		if (!worldObj.isRemote){
 		if (this.isSmelting()) {
@@ -339,6 +344,13 @@ public class TileEntityAlloySmelter extends TileEntity implements ISidedInventor
 	}
 		}
 		if (flag) this.markDirty();
+		
+		if (hasUpgrades()) {
+			if (worldObj.getBlock(xCoord + 1, yCoord, zCoord) == Blocks.chest) {
+				Item item = slots[6].getItem();
+			}
+		}
+		
 		
 	}
 	public boolean anyUsableLiquidPresent() {return anyUsableLavaInTank() || anyUsableWaterInTank();}

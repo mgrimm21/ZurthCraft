@@ -8,6 +8,7 @@ import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
 import com.mgrimm21.zurthcraft.init.ModBlocks;
 import com.mgrimm21.zurthcraft.init.ModItems;
 import com.mgrimm21.zurthcraft.reference.ConfigValues;
+import com.mgrimm21.zurthcraft.reference.Names;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -21,7 +22,7 @@ public class BlockZurditeOre extends BlockZurthCraft{
 	private int most_quantity = ConfigValues.maxzurditedustonorebreak;
 	
 	public BlockZurditeOre() {
-		this.setBlockName("zurditeore");
+		this.setBlockName(Names.ZURDITEORE);
 		this.setHardness(3.0F);
 		this.setLightLevel(0.3F);
 		this.setResistance(15.0F);

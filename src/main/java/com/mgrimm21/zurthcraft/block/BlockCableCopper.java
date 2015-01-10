@@ -4,6 +4,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 import com.mgrimm21.zurthcraft.init.ModBlocks;
+import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.util.LogHelper;
 
 public class BlockCableCopper extends BlockZurthCraft{
@@ -11,7 +12,7 @@ public class BlockCableCopper extends BlockZurthCraft{
 	
 	public BlockCableCopper() {
 		super();
-		this.setBlockName("coppercable");
+		this.setBlockName(Names.COPPERCABLE);
 		this.setBlockBounds(0.4F, 0.4F, 0.0F, 0.6F, 0.6F, 1.0F);
 		this.canBlockGrass = false;
 		//LogHelper.info(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));

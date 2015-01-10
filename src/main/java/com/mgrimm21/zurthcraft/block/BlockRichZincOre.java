@@ -6,6 +6,7 @@ import net.minecraft.item.Item;
 
 import com.mgrimm21.zurthcraft.init.ModItems;
 import com.mgrimm21.zurthcraft.reference.ConfigValues;
+import com.mgrimm21.zurthcraft.reference.Names;
 
 public class BlockRichZincOre extends BlockZurthCraft{
 	
@@ -16,7 +17,7 @@ public class BlockRichZincOre extends BlockZurthCraft{
 	
 	public BlockRichZincOre() {
 		super();
-		this.setBlockName("richzincore");
+		this.setBlockName(Names.RICHZINCORE);
 		this.setHardness(3.0F);
 		this.setLightLevel(0.3F);
 		this.setResistance(15.0F);

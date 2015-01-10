@@ -1,6 +1,7 @@
 package com.mgrimm21.zurthcraft.block;
 
 import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -13,7 +14,7 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 public class BlockAlabasterSapling extends BlockSapling implements IGrowable{
 	
 	public BlockAlabasterSapling() {
-		this.setBlockName("alabastersapling");
+		this.setBlockName(Names.ALABASTERSAPLING);
 		this.setHardness(2.2F);
 		this.setLightOpacity(255);
 		this.setHarvestLevel("axe", 1);

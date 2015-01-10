@@ -4,6 +4,7 @@ import java.util.Random;
 
 import com.mgrimm21.zurthcraft.init.ModItems;
 import com.mgrimm21.zurthcraft.reference.ConfigValues;
+import com.mgrimm21.zurthcraft.reference.Names;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.item.EntityItem;
@@ -17,7 +18,7 @@ public class BlockZurditeLamp extends BlockZurthCraft{
 	
 	public BlockZurditeLamp() {
 		super(Material.rock);
-		this.setBlockName("zurditelamp");
+		this.setBlockName(Names.ZURDITELAMP);
 		this.setLightLevel(16.0F);
 	}
 	

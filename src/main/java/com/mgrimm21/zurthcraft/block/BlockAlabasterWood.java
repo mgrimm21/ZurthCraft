@@ -1,5 +1,7 @@
 package com.mgrimm21.zurthcraft.block;
 
+import com.mgrimm21.zurthcraft.reference.Names;
+
 import net.minecraft.block.material.Material;
 
 public class BlockAlabasterWood extends BlockZurthCraft{
@@ -7,7 +9,7 @@ public class BlockAlabasterWood extends BlockZurthCraft{
 	public BlockAlabasterWood() {
 		super(Material.wood);
 		this.setHarvestLevel("axe", 1);
-		this.setBlockName("alabasterwood");
+		this.setBlockName(Names.ALABASTERWOOD);
 	}
 	
 }

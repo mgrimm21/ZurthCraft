@@ -1,5 +1,6 @@
 package com.mgrimm21.zurthcraft.block;
 
+import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.reference.Reference;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -17,7 +18,7 @@ public class BlockElectricFurnace extends BlockZurthCraft{
 
 	public BlockElectricFurnace() {
 		super();
-		this.setBlockName("electricfurnace");
+		this.setBlockName(Names.ELECTRICFURNACE);
 	}
 	
 	@Override

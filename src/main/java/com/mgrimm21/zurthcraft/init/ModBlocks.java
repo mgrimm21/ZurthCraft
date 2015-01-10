@@ -34,6 +34,7 @@ import com.mgrimm21.zurthcraft.block.BlockZurditeOreEnd;
 import com.mgrimm21.zurthcraft.block.BlockZurditeOreNether;
 import com.mgrimm21.zurthcraft.block.BlockZurthCraft;
 import com.mgrimm21.zurthcraft.block.ItemSpecialBlock;
+import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.tileentity.TileEntityAlloySmelter;
 import com.mgrimm21.zurthcraft.tileentity.TileHollowMultiBlock;
 import com.mgrimm21.zurthcraft.tileentity.TileStoneMultiblock;
@@ -59,8 +60,8 @@ public class ModBlocks {
 	//MACHINES
 	public static final BlockZurthCraft electricfurnace = new BlockElectricFurnace();
 	public static final BlockZurthCraft electrostaticgenerator = new BlockElectrostaticGenerator();
-	public static final Block alloysmelteridle = new BlockAlloySmelter(false).setBlockName("alloysmelteridle");
-	public static final Block alloysmelteractive = new BlockAlloySmelter(true).setBlockName("alloysmelteractive");
+	public static final Block alloysmelteridle = new BlockAlloySmelter(false).setBlockName(Names.ALLOYSMELTERIDLE);
+	public static final Block alloysmelteractive = new BlockAlloySmelter(true).setBlockName(Names.ALLOYSMELTERACTIVE);
 	//CABLES
 	public static final BlockZurthCraft coppercable = new BlockCableCopper();
 	//OTHER
@@ -90,38 +91,38 @@ public class ModBlocks {
 	 GameRegistry.registerTileEntity(TileEntityAlloySmelter.class, "alloysmelter");
 	 
 		//ORES
-		GameRegistry.registerBlock(zurditeore, "zurditeore");
-		GameRegistry.registerBlock(zurditeoreend, "zurditeoreend");
-		GameRegistry.registerBlock(zurditeorenether, "zurditeorenether");
-		GameRegistry.registerBlock(zincore, "zincore");
-		GameRegistry.registerBlock(richzinceore, "richzincore");
-		GameRegistry.registerBlock(bauxiteore, "bauxiteore");
-		GameRegistry.registerBlock(copperore, "copperore");
+		GameRegistry.registerBlock(zurditeore, Names.ZURDITEORE);
+		GameRegistry.registerBlock(zurditeoreend, Names.ZURDITEOREEND);
+		GameRegistry.registerBlock(zurditeorenether, Names.ZURDITEORENETHER);
+		GameRegistry.registerBlock(zincore, Names.ZINCORE);
+		GameRegistry.registerBlock(richzinceore, Names.RICHZINCORE);
+		GameRegistry.registerBlock(bauxiteore, Names.BAUXITEORE);
+		GameRegistry.registerBlock(copperore, Names.COPPERORE);
 		//METAL BLOCKS
-		GameRegistry.registerBlock(blockofzurdite, "blockofzurdite");
-		GameRegistry.registerBlock(blockofzinc, "blockofzinc");
-		GameRegistry.registerBlock(blockofcopper, "blockofcopper");
-		GameRegistry.registerBlock(blockofsteel, "blockofsteel");
-		GameRegistry.registerBlock(blockofbrass, "blockofbrass");
+		GameRegistry.registerBlock(blockofzurdite, Names.BLOCKOFZURDITE);
+		GameRegistry.registerBlock(blockofzinc, Names.BLOCKOFZINC);
+		GameRegistry.registerBlock(blockofcopper, Names.BLOCKOFCOPPER);
+		GameRegistry.registerBlock(blockofsteel, Names.BLOCKOFSTEEL);
+		GameRegistry.registerBlock(blockofbrass, Names.BLOCKOFBRASS);
 		//MACHINES
-		GameRegistry.registerBlock(electricfurnace, "electricefurnace");
-		GameRegistry.registerBlock(electrostaticgenerator, "electrostaticgenerator");
-		GameRegistry.registerBlock(alloysmelteridle, "alloysmelteridle");
-		GameRegistry.registerBlock(alloysmelteractive, "alloysmelteractive");
+		GameRegistry.registerBlock(electricfurnace, Names.ELECTRICFURNACE);
+		GameRegistry.registerBlock(electrostaticgenerator, Names.ELECTROSTATICGENERATOR);
+		GameRegistry.registerBlock(alloysmelteridle, Names.ALLOYSMELTERIDLE);
+		GameRegistry.registerBlock(alloysmelteractive, Names.ALLOYSMELTERACTIVE);
 		//CABLES
-		GameRegistry.registerBlock(coppercable, "coppercable");
+		GameRegistry.registerBlock(coppercable, Names.COPPERCABLE);
 		//OTHER
-		GameRegistry.registerBlock(zurditelamp, "zurditelamp");
-		GameRegistry.registerBlock(quenchtankblock, "quenchtankblock");
-		GameRegistry.registerBlock(zippstone, "zippstone");
+		GameRegistry.registerBlock(zurditelamp, Names.ZURDITELAMP);
+		GameRegistry.registerBlock(quenchtankblock, Names.QUENCHTANKBLOCK);
+		GameRegistry.registerBlock(zippstone, Names.ZIPPSTONE);
 		
 		//WOOD
-		GameRegistry.registerBlock(alabasterwood, "alabasterwood");
-		GameRegistry.registerBlock(alabasterplank, "alabasterplank");
-		GameRegistry.registerBlock(alabastersapling, "alabastersapling");
+		GameRegistry.registerBlock(alabasterwood, Names.ALABASTERWOOD);
+		GameRegistry.registerBlock(alabasterplank, Names.ALABASTERPLANK);
+		GameRegistry.registerBlock(alabastersapling, Names.ALABASTERSAPLING);
 		//MAGIC BASED
-		GameRegistry.registerBlock(inertstone, "inertstone");
-		GameRegistry.registerBlock(activatedstone, "activatedstone");
+		GameRegistry.registerBlock(inertstone, Names.INERTSTONE);
+		GameRegistry.registerBlock(activatedstone, Names.ACTIVATEDSTONE);
 		registerOreDictionary();
 	}
 	

@@ -1,5 +1,7 @@
 package com.mgrimm21.zurthcraft.block;
 
+import com.mgrimm21.zurthcraft.reference.Names;
+
 import net.minecraft.block.material.Material;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -8,7 +10,7 @@ public class BlockElectrostaticGenerator extends BlockZurthCraft{
 
 	public BlockElectrostaticGenerator() {
 		super(Material.glass);
-		this.setBlockName("electrostaticgenerator");
+		this.setBlockName(Names.ELECTROSTATICGENERATOR);
 		this.setLightOpacity(20);
 	}
 

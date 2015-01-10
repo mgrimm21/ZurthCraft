@@ -6,6 +6,7 @@ import net.minecraft.item.Item;
 
 import com.mgrimm21.zurthcraft.init.ModItems;
 import com.mgrimm21.zurthcraft.reference.ConfigValues;
+import com.mgrimm21.zurthcraft.reference.Names;
 
 public class BlockZurditeOreEnd extends BlockZurthCraft{
 	private Item drop;
@@ -14,7 +15,7 @@ public class BlockZurditeOreEnd extends BlockZurthCraft{
 	private int most_quantity = ConfigValues.maxzurditedustonorebreak;
 	
 	public BlockZurditeOreEnd() {
-		this.setBlockName("zurditeoreend");
+		this.setBlockName(Names.ZURDITEOREEND);
 		this.setHardness(3.0F);
 		this.setLightLevel(0.3F);
 		this.setResistance(15.0F);
