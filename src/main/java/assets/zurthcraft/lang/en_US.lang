@@ -28,6 +28,10 @@ item.zurthcraft:steelingotgalvanized.name=Galvanized Steel Ingot
 item.zurthcraft:steelingotpickled.name=Steel Ingot
 item.zurthcraft:steelingotscaled.name=Steel Ingot
 item.zurthcraft:zincammoniumchloride.name=Zinc Ammonium Chloride
+item.zurthcraft:basicupgrade.name=Basic Upgrade
+item.zurthcraft:advancedupgrade.name=Advanced Upgrade
+item.zurthcraft:automationupgrade.name=Automation Upgrade
+
 
 
 tile.zurthcraft:quenchMultiBlock.name=Quench Tank Block
@@ -55,7 +59,8 @@ tile.zurthcraft:alloysmelteridle.name=Alloy Smelter
 tile.zurthcraft:alabasterwood.name=Alabaster Wood
 tile.zurthcraft:alabasterplank.name=Alabaster Planks
 tile.zurthcraft:alabastersapling.name=Alabaster Sapling
-
+tile.zurthcraft:inertstone.name=Inert Stone
+tile.zurthcraft:activatedstone.name=Activated Stone
 container.alloysmelter=Alloy Smeltery
 entity.Zipp.name=Zipp
 

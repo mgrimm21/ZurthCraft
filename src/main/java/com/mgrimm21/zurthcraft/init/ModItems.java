@@ -1,10 +1,12 @@
 package com.mgrimm21.zurthcraft.init;
 
-import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 
+import com.mgrimm21.zurthcraft.item.ItemAdvancedUpgrade;
 import com.mgrimm21.zurthcraft.item.ItemAlumina;
+import com.mgrimm21.zurthcraft.item.ItemAutomationUpgrade;
+import com.mgrimm21.zurthcraft.item.ItemBasicUpgrade;
 import com.mgrimm21.zurthcraft.item.ItemCookedZippMeat;
 import com.mgrimm21.zurthcraft.item.ItemRawZippMeat;
 import com.mgrimm21.zurthcraft.item.ItemSulfur;
@@ -73,7 +75,9 @@ public class ModItems {
 	public static final ItemZurthCraft steelingotpickled = new ItemSteelIngotPickled();
 	public static final ItemZurthCraft steelingotscaled = new ItemSteelIngotScaled();
 	public static final ItemZurthCraft zincammoniumchloride = new ItemZincAmmoniumChloride();
-	
+	public static final ItemZurthCraft basicupgrade = new ItemBasicUpgrade();
+	public static final ItemZurthCraft advancedupgrade = new ItemAdvancedUpgrade();
+	public static final ItemZurthCraft automationupgrade = new ItemAutomationUpgrade();
 	
 	public static void init() {
 		GameRegistry.registerItem(zurditeDust, "zurditedust");
@@ -106,6 +110,9 @@ public class ModItems {
 		GameRegistry.registerItem(steelingotpickled, "steelingotpickled");
 		GameRegistry.registerItem(steelingotscaled, "steelingotscaled");
 		GameRegistry.registerItem(zincammoniumchloride, "zincammoniumchloride");
+		GameRegistry.registerItem(basicupgrade, "basicupgrade");
+		GameRegistry.registerItem(advancedupgrade, "advancedupgrade");
+		GameRegistry.registerItem(automationupgrade, "automationupgrade");
 	}
 	
 }
