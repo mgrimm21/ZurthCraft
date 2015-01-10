@@ -9,10 +9,4 @@ public class Reference {
 	public static final String SERVER_PROXY_CLASS = "com.mgrimm21.zurthcraft.proxy.ServerProxy";
 	public static final String GUI_FACTORY_CLASS = "com.mgrimm21.zurthcraft.client.gui.GuiFactory";
 	//TEMP UNTIL ISSUE FIXED
-	public static int lava;
-	public static int water;
-	public static final int MAXWATER = 4000;
-	public static final int MAXLAVA = 4000;
-	public static int lastl;
-	public static int lastw;
 }

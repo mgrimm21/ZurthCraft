@@ -62,8 +62,8 @@ public class ContainerAlloySmelter extends Container {
 		
 		
 	}
-	public int getLavaRemainingScaled(int i) { return (this.lavastored * i) / Reference.MAXLAVA; }
-	public int getWaterRemainingScaled(int i) {return (this.waterstored * i) / Reference.MAXWATER;}
+	public int getLavaRemainingScaled(int i) { return (this.lavastored * i) / masher.getMaxLava(); }
+	public int getWaterRemainingScaled(int i) {return (this.waterstored * i) / masher.getMaxWater();}
 	public void detectAndSendChanges()
     {
         super.detectAndSendChanges();

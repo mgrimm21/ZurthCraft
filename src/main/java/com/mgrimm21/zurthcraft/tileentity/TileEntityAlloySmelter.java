@@ -32,9 +32,9 @@ public class TileEntityAlloySmelter extends TileEntity implements ISidedInventor
 	private int lastfuelslot; //0 = water 1 = nothing 2 = lava
 	private  AlloySmelterLiquid liquidused;
 	public int lavastored;
-	private final int MAXLAVA = Reference.MAXLAVA;
+	private int MAXLAVA = 4000;
 	public int waterstored;
-	private final int MAXWATER = Reference.MAXWATER;
+	private int MAXWATER = 4000;
 	private int cooktime;
 	private boolean hasautomationupgrade = false;
 	private final int speed = 100;
@@ -44,6 +44,8 @@ public class TileEntityAlloySmelter extends TileEntity implements ISidedInventor
 	@Override
 	public int[] getAccessibleSlotsFromSide(int i){return i == 0 ? slots_bottom : (i == 1 ? slots_top : slots_side);}
 	public TileEntityAlloySmelter() {slots = new ItemStack[13];}
+	public int getMaxWater() {return this.MAXWATER;}
+	public int getMaxLava() {return this.MAXLAVA;}
 	@Override
 	public int getSizeInventory() {return slots.length;}
 	public int getLavaRemainingScaled(int i) { return (this.lavastored * i) / MAXLAVA; }

@@ -38,8 +38,9 @@ public class GuiAlloySmelter extends GuiContainer{
 		this.fontRendererObj.drawString(I18n.format("container.inventory"), 85, this.ySize - 118 + 5, 4210752);
 
 	}
-	public int getLavaRemainingScaled(int i) { return (this.lavastored * i) / Reference.MAXLAVA; }
-		public int getWaterRemainingScaled(int i) {return (this.waterstored * i) / Reference.MAXWATER;}
+	public int getLavaRemainingScaled(int i) { return (this.lavastored * i) / alloysmelter.getMaxLava();}
+	public int getWaterRemainingScaled(int i) {return (this.waterstored * i) / alloysmelter.getMaxWater();}
+	
 	@Override
 	protected void drawGuiContainerBackgroundLayer(float p_146976_1_, int p_146976_2_, int p_146976_3_) {
 		GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
