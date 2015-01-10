@@ -25,6 +25,7 @@ import com.mgrimm21.zurthcraft.block.BlockInertStone;
 import com.mgrimm21.zurthcraft.block.BlockQuenchTank;
 import com.mgrimm21.zurthcraft.block.BlockQuenchTankBlock;
 import com.mgrimm21.zurthcraft.block.BlockRichZincOre;
+import com.mgrimm21.zurthcraft.block.BlockSkillAltar;
 import com.mgrimm21.zurthcraft.block.BlockStone;
 import com.mgrimm21.zurthcraft.block.BlockZincOre;
 import com.mgrimm21.zurthcraft.block.BlockZippStone;
@@ -78,7 +79,7 @@ public class ModBlocks {
 	//MAGIC BASED
 	public static final BlockZurthCraft inertstone = new BlockInertStone();
 	public static final BlockZurthCraft activatedstone = new BlockActivatedStone();
-	
+	public static final BlockZurthCraft skillaltar = new BlockSkillAltar();
 	//TEST
 	 
 	public static Block quench, stoneMulti;
@@ -120,7 +121,6 @@ public class ModBlocks {
 		GameRegistry.registerBlock(zurditelamp, Names.ZURDITELAMP);
 		GameRegistry.registerBlock(quenchtankblock, Names.QUENCHTANKBLOCK);
 		GameRegistry.registerBlock(zippstone, Names.ZIPPSTONE);
-		
 		//WOOD
 		GameRegistry.registerBlock(alabasterwood, Names.ALABASTERWOOD);
 		GameRegistry.registerBlock(alabasterplank, Names.ALABASTERPLANK);
@@ -128,6 +128,7 @@ public class ModBlocks {
 		//MAGIC BASED
 		GameRegistry.registerBlock(inertstone, Names.INERTSTONE);
 		GameRegistry.registerBlock(activatedstone, Names.ACTIVATEDSTONE);
+		GameRegistry.registerBlock(skillaltar, Names.SKILLALTAR);
 		registerOreDictionary();
 	}
 	
