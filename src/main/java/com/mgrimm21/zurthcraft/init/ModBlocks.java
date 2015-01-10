@@ -32,6 +32,7 @@ import com.mgrimm21.zurthcraft.block.BlockZurditeLamp;
 import com.mgrimm21.zurthcraft.block.BlockZurditeOre;
 import com.mgrimm21.zurthcraft.block.BlockZurditeOreEnd;
 import com.mgrimm21.zurthcraft.block.BlockZurditeOreNether;
+import com.mgrimm21.zurthcraft.block.BlockZurditeTank;
 import com.mgrimm21.zurthcraft.block.BlockZurthCraft;
 import com.mgrimm21.zurthcraft.block.ItemSpecialBlock;
 import com.mgrimm21.zurthcraft.reference.Names;
@@ -62,6 +63,8 @@ public class ModBlocks {
 	public static final BlockZurthCraft electrostaticgenerator = new BlockElectrostaticGenerator();
 	public static final Block alloysmelteridle = new BlockAlloySmelter(false).setBlockName(Names.ALLOYSMELTERIDLE);
 	public static final Block alloysmelteractive = new BlockAlloySmelter(true).setBlockName(Names.ALLOYSMELTERACTIVE);
+	//TANKS
+	public static final Block zurditetank = new BlockZurditeTank();
 	//CABLES
 	public static final BlockZurthCraft coppercable = new BlockCableCopper();
 	//OTHER
@@ -109,6 +112,8 @@ public class ModBlocks {
 		GameRegistry.registerBlock(electrostaticgenerator, Names.ELECTROSTATICGENERATOR);
 		GameRegistry.registerBlock(alloysmelteridle, Names.ALLOYSMELTERIDLE);
 		GameRegistry.registerBlock(alloysmelteractive, Names.ALLOYSMELTERACTIVE);
+		//TANKS
+		GameRegistry.registerBlock(zurditetank, Names.ZURDITETANK);
 		//CABLES
 		GameRegistry.registerBlock(coppercable, Names.COPPERCABLE);
 		//OTHER

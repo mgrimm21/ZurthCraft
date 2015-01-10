@@ -61,6 +61,7 @@ tile.zurthcraft:alabasterplank.name=Alabaster Planks
 tile.zurthcraft:alabastersapling.name=Alabaster Sapling
 tile.zurthcraft:inertstone.name=Inert Stone
 tile.zurthcraft:activatedstone.name=Activated Stone
+tile.zurthcraft:zurditetank.name=Zuridium Tank
 container.alloysmelter=Alloy Smeltery
 entity.Zipp.name=Zipp
 

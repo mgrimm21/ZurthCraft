@@ -29,4 +29,5 @@ public class Names {
 	public static final String ZURDITEORE = "zurditeore";
 	public static final String ZURDITEOREEND = "zurditeoreend";
 	public static final String ZURDITEORENETHER = "zurditeorenether";
+	public static final String ZURDITETANK = "zurditetank";
 }
