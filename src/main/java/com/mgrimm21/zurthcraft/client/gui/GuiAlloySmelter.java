@@ -23,7 +23,8 @@ public class GuiAlloySmelter extends GuiContainer{
 	
 	public GuiAlloySmelter(InventoryPlayer invPlayer, TileEntityAlloySmelter te) {
 		super(new ContainerAlloySmelter(invPlayer, te));
-
+		this.lavastored = te.lavastored;
+		this.waterstored = te.waterstored;
 		this.alloysmelter = te;
 
 		this.ySize = 186;
@@ -37,7 +38,8 @@ public class GuiAlloySmelter extends GuiContainer{
 		this.fontRendererObj.drawString(I18n.format("container.inventory"), 85, this.ySize - 118 + 5, 4210752);
 
 	}
-	
+	public int getLavaRemainingScaled(int i) { return (this.lavastored * i) / Reference.MAXLAVA; }
+		public int getWaterRemainingScaled(int i) {return (this.waterstored * i) / Reference.MAXWATER;}
 	@Override
 	protected void drawGuiContainerBackgroundLayer(float p_146976_1_, int p_146976_2_, int p_146976_3_) {
 		GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
@@ -49,7 +51,6 @@ public class GuiAlloySmelter extends GuiContainer{
 		//LogHelper.info(intWater);
 			drawTexturedModalRect(guiLeft + 17, guiTop + 60 - intWater, 177, 59 - intWater, 16, intWater);
 			
-		
 			int intLava = alloysmelter.getLavaRemainingScaled(64);
 			//LogHelper.info(intLava);
 			drawTexturedModalRect(guiLeft + 53, guiTop + 60 - intLava, 194, 59 - intLava, 16, intLava);

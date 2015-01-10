@@ -56,12 +56,12 @@ public class TileEntityAlloySmelter extends TileEntity implements ISidedInventor
 		
 	}
 	public void checkUpgrades() {
-		for (int i = 7; i < slots.length - 1; i++) {
-			if (slots[i] == null) break;
+		for (int i = 7; i < 11; i++) {
 			Item item = slots[i].getItem();
 			if (item == null) hasautomationupgrade = false;
-			if (item == ModItems.zurditeIngot){
+			if (item == ModItems.automationupgrade){
 				hasautomationupgrade = true;
+				break;
 			} else {
 				hasautomationupgrade = false;
 				 
@@ -72,7 +72,7 @@ public class TileEntityAlloySmelter extends TileEntity implements ISidedInventor
 		for (int i = 7; i < slots.length - 1; i++) {
 			if (slots[i] == null) return false;
 			Item item = slots[i].getItem();
-			if (item == ModItems.zurditeIngot){
+			if (item == ModItems.automationupgrade){
 				return true;
 			}
 		}
@@ -202,18 +202,25 @@ public class TileEntityAlloySmelter extends TileEntity implements ISidedInventor
 
 	
 	public boolean canExtractItem(int slot, ItemStack itemstack, int side) {
-		checkUpgrades();
-		if (side != 0) {
-			return false;
-		} 
-		if (slot == 1 || slot == 3 || slot == 4) {
-			return true;
-		} else if (slot == 6 && hasUpgrades()){
-			return true;
+		if (side != 0) return false;
+		for (int i = 7; i < slots.length; i++) {
+			if (slots[i] != null) {
+				if (slots[i].getItem() == ModItems.automationupgrade) return true;
+			}
 		}
+		return false;
+		
+		//if (side != 0) {
+		//	return false;
+		//} 
+		//if (slot == 1 || slot == 3 || slot == 4) {
+		//	return true;
+		//} else if (slot == 6 && hasUpgrades()){
+		//	return true;
+		//}
 	
 	
-	return false;
+	//return false;
 	}
 	private boolean canSmelt() {
 		//CHECKS FOR ITEM IN SMELTING INPUT SLOT - RETURNS FALSE IF EMPTY

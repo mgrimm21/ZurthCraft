@@ -10,6 +10,7 @@ import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.tileentity.TileEntityFurnace;
 
 import com.mgrimm21.zurthcraft.client.gui.slot.SlotAlloySmelter;
+import com.mgrimm21.zurthcraft.reference.Reference;
 import com.mgrimm21.zurthcraft.tileentity.TileEntityAlloySmelter;
 import com.mgrimm21.zurthcraft.util.LogHelper;
 
@@ -61,7 +62,8 @@ public class ContainerAlloySmelter extends Container {
 		
 		
 	}
-	
+	public int getLavaRemainingScaled(int i) { return (this.lavastored * i) / Reference.MAXLAVA; }
+	public int getWaterRemainingScaled(int i) {return (this.waterstored * i) / Reference.MAXWATER;}
 	public void detectAndSendChanges()
     {
         super.detectAndSendChanges();
