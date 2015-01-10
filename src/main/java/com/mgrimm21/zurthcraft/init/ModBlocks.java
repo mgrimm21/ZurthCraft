@@ -38,6 +38,7 @@ import com.mgrimm21.zurthcraft.block.BlockZurthCraft;
 import com.mgrimm21.zurthcraft.block.ItemSpecialBlock;
 import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.tileentity.TileEntityAlloySmelter;
+import com.mgrimm21.zurthcraft.tileentity.TileEntitySkillAltar;
 import com.mgrimm21.zurthcraft.tileentity.TileHollowMultiBlock;
 import com.mgrimm21.zurthcraft.tileentity.TileStoneMultiblock;
 
@@ -79,7 +80,7 @@ public class ModBlocks {
 	//MAGIC BASED
 	public static final BlockZurthCraft inertstone = new BlockInertStone();
 	public static final BlockZurthCraft activatedstone = new BlockActivatedStone();
-	public static final BlockZurthCraft skillaltar = new BlockSkillAltar();
+	public static final Block skillaltar = new BlockSkillAltar();
 	//TEST
 	 
 	public static Block quench, stoneMulti;
@@ -93,6 +94,7 @@ public class ModBlocks {
 	 GameRegistry.registerTileEntity(TileHollowMultiBlock.class, "multiblock.quench");
 	 GameRegistry.registerTileEntity(TileStoneMultiblock.class, "multiblock.stone");
 	 GameRegistry.registerTileEntity(TileEntityAlloySmelter.class, "alloysmelter");
+	 GameRegistry.registerTileEntity(TileEntitySkillAltar.class, "teskillaltar");
 	 
 		//ORES
 		GameRegistry.registerBlock(zurditeore, Names.ZURDITEORE);
