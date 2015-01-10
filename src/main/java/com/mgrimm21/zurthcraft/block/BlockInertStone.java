@@ -36,19 +36,19 @@ public class BlockInertStone extends BlockZurthCraft{
 		EntityLightningBolt lightning = new EntityLightningBolt(world, x + 5, y, z);
 		world.setThunderStrength(10.0F);
 	    world.spawnEntityInWorld(lightning);
-	    lightning = new EntityLightningBolt(world, x + 4, y, z + 4);
+	    lightning = new EntityLightningBolt(world, x + 5, y, z + 5);
 		world.spawnEntityInWorld(lightning);
-		lightning = new EntityLightningBolt(world, x, y, z + 4);
+		lightning = new EntityLightningBolt(world, x, y, z + 5);
 		world.spawnEntityInWorld(lightning);
-		lightning = new EntityLightningBolt(world, x - 4, y, z);
+		lightning = new EntityLightningBolt(world, x - 5, y, z);
 		world.spawnEntityInWorld(lightning);
-		lightning = new EntityLightningBolt(world, x + 4, y, z - 4);
+		lightning = new EntityLightningBolt(world, x + 5, y, z - 5);
 		world.spawnEntityInWorld(lightning);
-		lightning = new EntityLightningBolt(world, x, y, z - 4);
+		lightning = new EntityLightningBolt(world, x, y, z - 5);
 		world.spawnEntityInWorld(lightning);
-		lightning = new EntityLightningBolt(world, x - 4, y, z - 4);
+		lightning = new EntityLightningBolt(world, x - 5, y, z - 5);
 		world.spawnEntityInWorld(lightning);
-		lightning = new EntityLightningBolt(world, x - 4, y, z + 4);
+		lightning = new EntityLightningBolt(world, x - 5, y, z + 5);
 		world.spawnEntityInWorld(lightning);
 		return true;
 	}
