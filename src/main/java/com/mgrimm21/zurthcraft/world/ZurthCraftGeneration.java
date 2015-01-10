@@ -45,7 +45,7 @@ public class ZurthCraftGeneration implements IWorldGenerator{
 		generateOre(ModBlocks.bauxiteore, world, random, x, z, 4, 8, 5, 0, 100, Blocks.stone);
 		generateOre(ModBlocks.copperore, world, random, x, z, 4, 8, 5, 0, 100, Blocks.stone);
 		generateOre(ModBlocks.zincore, world, random, x, z, 4, 8, 5, 0, 100, Blocks.stone);
-		generateOre(ModBlocks.inertstone, world, random, x, z, 1, 3, 3, 1, 10, Blocks.stone);
+		generateOre(ModBlocks.inertstone, world, random, x, z, 4, 8, 5, 0, 20, Blocks.stone);
 	}
 	
 	public void generateEnd(World world, Random random, int x, int z) {
@@ -53,7 +53,7 @@ public class ZurthCraftGeneration implements IWorldGenerator{
 		generateOre(ModBlocks.bauxiteore, world, random, x, z, 4, 8, 5, 0, 100, Blocks.end_stone);
 		generateOre(ModBlocks.copperore, world, random, x, z, 4, 8, 5, 0, 100, Blocks.end_stone);
 		generateOre(ModBlocks.zincore, world, random, x, z, 4, 8, 5, 0, 100, Blocks.end_stone);
-		generateOre(ModBlocks.inertstone, world, random, x, z, 4, 8, 3, 0, 100, Blocks.end_stone);
+		generateOre(ModBlocks.inertstone, world, random, x, z, 4, 8, 5, 0, 100, Blocks.end_stone);
 	}
 	
 	public void generateOre(BlockZurthCraft block, World world, Random random, 
