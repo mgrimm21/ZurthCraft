@@ -39,7 +39,7 @@ public class RecipeAndSmeltingHandler {
 				"iii", "iii", "iii", 'i', new ItemStack(ModItems.zincingothg));
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.blockofzinc, 2), 
 				"iii", "iii", "iii", 'i', new ItemStack(ModItems.zincingotshg));
-		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.richzinceore), "xx", "xx", 'x', new ItemStack(ModBlocks.zincore));
+		//GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.richzinceore), "xx", "xx ", 'x', new ItemStack(ModBlocks.zincore));
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.electricfurnace),
 				"xxx", "xcx", "xxx", 'x', new ItemStack(ModItems.zurditeIngot), 'c', new ItemStack(ModItems.zurditecircuit));
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.skillaltar), "aaa", "isi", "sss", 'a', 
