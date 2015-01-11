@@ -18,9 +18,8 @@ public class BlockAlabasterSapling extends BlockSapling implements IGrowable{
 		this.setHardness(2.2F);
 		this.setLightOpacity(255);
 		this.setHarvestLevel("axe", 1);
-		this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
+		this.setCreativeTab(ZCTabs.ZURTHCRAFT_MAGIC);
 	}
-	
 	@Override
 	public String getUnlocalizedName()
 	{
