@@ -1,6 +1,6 @@
 package com.mgrimm21.zurthcraft.item;
 
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -13,7 +13,7 @@ public class ItemZurthCraft extends Item{
 	public ItemZurthCraft() {
 		super();
 		this.maxStackSize = 64;
-		this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+		this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 	}
 	
 	@Override

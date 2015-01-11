@@ -1,6 +1,6 @@
 package com.mgrimm21.zurthcraft.block;
 
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.reference.Reference;
 import com.mgrimm21.zurthcraft.tileentity.TileHollowMultiBlock;
@@ -15,7 +15,7 @@ public class BlockQuenchTank extends BlockMultiBlock {
 public BlockQuenchTank() {
 super(Material.rock);
 this.setBlockName(Names.QUENCHTANK);
-this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 }
 
 @Override

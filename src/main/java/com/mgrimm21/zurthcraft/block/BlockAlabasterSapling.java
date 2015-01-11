@@ -1,6 +1,6 @@
 package com.mgrimm21.zurthcraft.block;
 
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.reference.Reference;
 
@@ -18,7 +18,7 @@ public class BlockAlabasterSapling extends BlockSapling implements IGrowable{
 		this.setHardness(2.2F);
 		this.setLightOpacity(255);
 		this.setHarvestLevel("axe", 1);
-		this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+		this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 	}
 	
 	@Override

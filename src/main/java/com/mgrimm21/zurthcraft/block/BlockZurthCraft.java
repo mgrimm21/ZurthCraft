@@ -1,6 +1,6 @@
 package com.mgrimm21.zurthcraft.block;
 
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -48,7 +48,7 @@ public class BlockZurthCraft extends Block{
 		this.setHardness(2.2F);
 		this.setLightOpacity(255);
 		this.setHarvestLevel("pickaxe", 0);
-		this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+		this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 	}
 	
 	public BlockZurthCraft() {
@@ -56,7 +56,7 @@ public class BlockZurthCraft extends Block{
 		this.setHardness(2.2F);
 		this.setLightOpacity(255);
 		this.setHarvestLevel("pickaxe", 0);
-		this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+		this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 	}
 	
 

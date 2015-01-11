@@ -1,6 +1,6 @@
 package com.mgrimm21.zurthcraft.item;
 
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -14,7 +14,7 @@ public class ItemRawZippMeat extends ItemFood{
 	public ItemRawZippMeat(int hunger, float saturation, boolean wolffood) {
 		super(hunger, saturation, wolffood);
 		this.setUnlocalizedName("rawzippmeat");
-		this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+		this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 		this.maxStackSize = 16;
 	}
 

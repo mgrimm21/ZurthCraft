@@ -25,6 +25,7 @@ import com.mgrimm21.zurthcraft.block.BlockInertStone;
 import com.mgrimm21.zurthcraft.block.BlockQuenchTank;
 import com.mgrimm21.zurthcraft.block.BlockQuenchTankBlock;
 import com.mgrimm21.zurthcraft.block.BlockRichZincOre;
+import com.mgrimm21.zurthcraft.block.BlockShardOre;
 import com.mgrimm21.zurthcraft.block.BlockSkillAltar;
 import com.mgrimm21.zurthcraft.block.BlockStone;
 import com.mgrimm21.zurthcraft.block.BlockZincOre;
@@ -35,6 +36,7 @@ import com.mgrimm21.zurthcraft.block.BlockZurditeOreEnd;
 import com.mgrimm21.zurthcraft.block.BlockZurditeOreNether;
 import com.mgrimm21.zurthcraft.block.BlockZurditeTank;
 import com.mgrimm21.zurthcraft.block.BlockZurthCraft;
+import com.mgrimm21.zurthcraft.block.ItemBlockShardOre;
 import com.mgrimm21.zurthcraft.block.ItemSpecialBlock;
 import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.tileentity.TileEntityAlloySmelter;
@@ -55,6 +57,7 @@ public class ModBlocks {
 	public static final BlockZurthCraft richzinceore = new BlockRichZincOre();
 	public static final BlockZurthCraft bauxiteore = new BlockBauxiteOre();
 	public static final BlockZurthCraft copperore = new BlockCopperOre();
+	public static final BlockZurthCraft shardore = new BlockShardOre();
 	//METAL BLOCKS
 	public static final BlockZurthCraft blockofzurdite = new BlockBlockOfZurdite();
 	public static final BlockZurthCraft blockofzinc = new BlockBlockOfZinc();
@@ -91,7 +94,8 @@ public class ModBlocks {
 	 stoneMulti = new BlockStone().setBlockName("stoneMultiBlock");
 	 GameRegistry.registerBlock(quench, ItemSpecialBlock.class, "quenchMultiBlock");
 	 GameRegistry.registerBlock(stoneMulti, ItemSpecialBlock.class, "StoneMultiBlock");
-		
+	 GameRegistry.registerBlock(shardore, ItemBlockShardOre.class, "shardore");
+	 
 	 GameRegistry.registerTileEntity(TileHollowMultiBlock.class, "multiblock.quench");
 	 GameRegistry.registerTileEntity(TileStoneMultiblock.class, "multiblock.stone");
 	 GameRegistry.registerTileEntity(TileEntityAlloySmelter.class, "alloysmelter");

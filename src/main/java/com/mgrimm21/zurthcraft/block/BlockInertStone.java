@@ -10,6 +10,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 import com.mgrimm21.zurthcraft.zurthcraft;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.init.ModBlocks;
 import com.mgrimm21.zurthcraft.init.ModItems;
 import com.mgrimm21.zurthcraft.reference.Names;
@@ -19,6 +20,7 @@ public class BlockInertStone extends BlockZurthCraft{
 	public BlockInertStone() {
 		super(Material.rock);
 		this.setBlockName(Names.INERTSTONE);
+		this.setCreativeTab(ZCTabs.ZURTHCRAFT_MAGIC);
 	}
 	
 	@Override

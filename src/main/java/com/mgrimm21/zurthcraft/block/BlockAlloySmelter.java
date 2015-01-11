@@ -15,7 +15,7 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 
 import com.mgrimm21.zurthcraft.zurthcraft;
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.init.ModBlocks;
 import com.mgrimm21.zurthcraft.reference.GuiID;
 import com.mgrimm21.zurthcraft.reference.Reference;
@@ -45,7 +45,7 @@ public class BlockAlloySmelter extends BlockContainer{
 		this.setLightOpacity(255);
 		this.setHarvestLevel("pickaxe", 1);
 		if (!blockState) {
-			this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+			this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 		}
 		rnd = new Random();
 		isActive = blockState;

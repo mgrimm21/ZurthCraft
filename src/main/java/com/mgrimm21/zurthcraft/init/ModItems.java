@@ -9,6 +9,7 @@ import com.mgrimm21.zurthcraft.item.ItemAutomationUpgrade;
 import com.mgrimm21.zurthcraft.item.ItemBasicUpgrade;
 import com.mgrimm21.zurthcraft.item.ItemCookedZippMeat;
 import com.mgrimm21.zurthcraft.item.ItemRawZippMeat;
+import com.mgrimm21.zurthcraft.item.ItemShards;
 import com.mgrimm21.zurthcraft.item.ItemSulfur;
 import com.mgrimm21.zurthcraft.item.ItemZincAmmoniumChloride;
 import com.mgrimm21.zurthcraft.item.ItemZurditeCircuit;

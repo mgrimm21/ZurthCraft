@@ -24,8 +24,7 @@ public class SkillEvent implements IExtendedEntityProperties{
 
 	@Override
 	public void init(Entity entity, World world) {
-		if (!(entity instanceof EntityPlayer)) return;
-		LogHelper.info("You are a player, and not that kind either.");
+		
 	}
 	
 }

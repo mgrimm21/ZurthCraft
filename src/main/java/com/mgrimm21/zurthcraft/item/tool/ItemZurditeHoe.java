@@ -1,6 +1,6 @@
 package com.mgrimm21.zurthcraft.item.tool;
 
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -15,7 +15,7 @@ public class ItemZurditeHoe extends ItemHoe {
 	public ItemZurditeHoe(ToolMaterial material) {
 		super(material);
 		this.setUnlocalizedName("zurditehoe");
-		this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+		this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 	}
 	
 	

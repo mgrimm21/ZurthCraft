@@ -4,7 +4,7 @@ import java.util.Random;
 
 import scala.tools.nsc.doc.model.Public;
 
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.init.ModBlocks;
 import com.mgrimm21.zurthcraft.init.ModItems;
 import com.mgrimm21.zurthcraft.reference.ConfigValues;

@@ -2,7 +2,7 @@ package com.mgrimm21.zurthcraft.item;
 
 import java.util.List;
 
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.reference.Reference;
 import com.mgrimm21.zurthcraft.util.LogHelper;
 
@@ -18,7 +18,7 @@ public class ItemCookedZippMeat extends ItemFood{
 	public ItemCookedZippMeat(int Hunger, float Saturation, boolean canwolfeat) {
 		super(Hunger, Saturation, canwolfeat);
 		this.setUnlocalizedName("cookedzippmeat");
-		this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+		this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 		this.maxStackSize = 16;
 		}
 	

@@ -1,6 +1,6 @@
 package com.mgrimm21.zurthcraft.item.tool;
 
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -14,7 +14,7 @@ public class ItemZurditePickaxe extends ItemPickaxe{
 	public ItemZurditePickaxe(ToolMaterial material) {
 		super(material);
 		this.setUnlocalizedName("zurditepickaxe");
-		this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+		this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 	}
 
 	@Override

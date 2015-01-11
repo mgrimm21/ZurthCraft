@@ -9,7 +9,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 
-import com.mgrimm21.zurthcraft.creativetab.CreativeTabZurthCraftMain;
+import com.mgrimm21.zurthcraft.creativetab.ZCTabs;
 import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.reference.Reference;
 import com.mgrimm21.zurthcraft.tileentity.TileEntityZurditeTank;
@@ -20,7 +20,7 @@ public class BlockZurditeTank extends BlockContainer{
 	public BlockZurditeTank() {
 		super(Material.iron);
 		this.setBlockName(Names.ZURDITETANK);
-		this.setCreativeTab(CreativeTabZurthCraftMain.ZURTHRAFT_MAIN);
+		this.setCreativeTab(ZCTabs.ZURTHRAFT_MAIN);
 	}
 
 	@Override
