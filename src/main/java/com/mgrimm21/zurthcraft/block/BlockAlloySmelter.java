@@ -158,6 +158,9 @@ public class BlockAlloySmelter extends BlockContainer{
 		LogHelper.info("Creating Tile Entity");
 		return new TileEntityAlloySmelter();
 	}
+	
+	
+	
 	public static void updateBlockState(boolean issmelting, World world, int x, int y, int z) {
 		int i = world.getBlockMetadata(x, y, z);
 		TileEntity entity = world.getTileEntity(x, y, z);

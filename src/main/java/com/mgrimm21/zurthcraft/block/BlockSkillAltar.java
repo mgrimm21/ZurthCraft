@@ -19,10 +19,7 @@ public class BlockSkillAltar extends BlockContainer {
 		 this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 0.69F, 1.0F);
 		 this.setBlockName(Names.SKILLALTAR);
 	}
-        
-        public TileEntity createNewTileEntity(World world) {
-                return new TileEntitySkillAltar();
-        }
+
        
         @Override
         public int getRenderType() {
@@ -56,7 +53,7 @@ public class BlockSkillAltar extends BlockContainer {
         
 		@Override
 		public TileEntity createNewTileEntity(World p_149915_1_, int p_149915_2_) {
-			 return new TileEntitySkillAltar();
+			 return new TileEntitySkillAltar(p_149915_1_);
 		}
 
 }
