@@ -38,6 +38,7 @@ import com.mgrimm21.zurthcraft.block.BlockZurthCraft;
 import com.mgrimm21.zurthcraft.block.ItemSpecialBlock;
 import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.tileentity.TileEntityAlloySmelter;
+import com.mgrimm21.zurthcraft.tileentity.TileEntityCompleteSkillAltar;
 import com.mgrimm21.zurthcraft.tileentity.TileEntitySkillAltar;
 import com.mgrimm21.zurthcraft.tileentity.TileHollowMultiBlock;
 import com.mgrimm21.zurthcraft.tileentity.TileStoneMultiblock;
@@ -95,6 +96,7 @@ public class ModBlocks {
 	 GameRegistry.registerTileEntity(TileStoneMultiblock.class, "multiblock.stone");
 	 GameRegistry.registerTileEntity(TileEntityAlloySmelter.class, "alloysmelter");
 	 GameRegistry.registerTileEntity(TileEntitySkillAltar.class, "teskillaltar");
+	 GameRegistry.registerTileEntity(TileEntityCompleteSkillAltar.class, "tecompleteskillaltar");
 	 
 		//ORES
 		GameRegistry.registerBlock(zurditeore, Names.ZURDITEORE);

@@ -2,6 +2,7 @@ package com.mgrimm21.zurthcraft.block;
 
 import com.mgrimm21.zurthcraft.reference.Names;
 import com.mgrimm21.zurthcraft.reference.Reference;
+import com.mgrimm21.zurthcraft.tileentity.TileEntityCompleteSkillAltar;
 import com.mgrimm21.zurthcraft.tileentity.TileEntitySkillAltar;
 
 import cpw.mods.fml.relauncher.Side;
@@ -52,8 +53,8 @@ public class BlockSkillAltar extends BlockContainer {
         }
         
 		@Override
-		public TileEntity createNewTileEntity(World p_149915_1_, int p_149915_2_) {
-			 return new TileEntitySkillAltar(p_149915_1_);
+		public TileEntity createNewTileEntity(World world, int p_149915_2_) {
+			 return new TileEntitySkillAltar(world);
 		}
 
 }

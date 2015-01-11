@@ -19,7 +19,7 @@ public class TileEntitySkillAltar extends TileEntity {
 		}
 			}
 		}
-		 if (!canform) this.getWorldObj().setTileEntity(xCoord, yCoord, zCoord, new TileEntityCompleteSkillAltar());
+		// if (!canform) this.getWorldObj().setTileEntity(xCoord, yCoord, zCoord, TileEntityCompleteSkillAltar);
 	}
 
 	public TileEntitySkillAltar(World world) {
