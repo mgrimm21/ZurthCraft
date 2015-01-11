@@ -3,6 +3,7 @@ package com.mgrimm21.zurthcraft;
 import java.util.concurrent.TimeUnit;
 
 import com.google.common.base.Stopwatch;
+import com.mgrimm21.zurthcraft.event.ZCEventHandler;
 import com.mgrimm21.zurthcraft.handler.ConfigurationHandler;
 import com.mgrimm21.zurthcraft.handler.RecipeAndSmeltingHandler;
 import com.mgrimm21.zurthcraft.init.ModBiomes;
@@ -44,7 +45,7 @@ public class zurthcraft {
 		// NEEDED THROUGHOUT THE MOD AND SAVES THEM IN REFERENCE.CONFIGS
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-		
+		FMLCommonHandler.instance().bus().register(new ZCEventHandler());
 		//REGISTERS CUSTOM ENTITY RENDERING
 		ClientProxy.registerRendering();
 		//REGISTERS ITEMS
