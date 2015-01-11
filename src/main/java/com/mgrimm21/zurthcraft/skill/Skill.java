@@ -6,19 +6,11 @@ import net.minecraft.nbt.NBTTagCompound;
 
 public class Skill {
 
-	private boolean isLearned;
-	private EntityPlayer player;
-	NBTTagCompound nbt = player.getEntityData();
+	protected boolean isLearned;
+	protected boolean canLearn;
+	protected int level;
+	protected int maxlevel;
 	public Skill() {
 
-	}
-	
-	
-	private void writeToNBT() {
-		
-	}
-	
-	private void readFromNBT() {
-		
 	}
 }
