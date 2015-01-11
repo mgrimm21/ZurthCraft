@@ -6,6 +6,7 @@ import com.google.common.base.Stopwatch;
 import com.mgrimm21.zurthcraft.event.ZCEventHandler;
 import com.mgrimm21.zurthcraft.handler.ConfigurationHandler;
 import com.mgrimm21.zurthcraft.handler.RecipeAndSmeltingHandler;
+import com.mgrimm21.zurthcraft.handler.EventHandler;
 import com.mgrimm21.zurthcraft.init.ModBiomes;
 import com.mgrimm21.zurthcraft.init.ModBlocks;
 import com.mgrimm21.zurthcraft.init.ModFluids;
@@ -25,6 +26,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class zurthcraft {
@@ -46,6 +48,8 @@ public class zurthcraft {
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		FMLCommonHandler.instance().bus().register(new ZCEventHandler());
+		// Registering your event handler so that Forge knows that it should send events to it
+		MinecraftForge.EVENT_BUS.register(new EventHandler());
 		//REGISTERS CUSTOM ENTITY RENDERING
 		ClientProxy.registerRendering();
 		//REGISTERS ITEMS
