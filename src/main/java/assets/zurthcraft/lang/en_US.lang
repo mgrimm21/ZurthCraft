@@ -63,6 +63,13 @@ tile.zurthcraft:inertstone.name=Inert Stone
 tile.zurthcraft:activatedstone.name=Activated Stone
 tile.zurthcraft:zurditetank.name=Zuridium Tank
 tile.zurthcraft:skillaltar.name=Skill Altar
+tile.zurthcraft:shardore.earthshard.name=Earth Shard
+tile.zurthcraft:shardore.heavenlyshard.name=Heavenly Shard
+tile.zurthcraft:shardore.fireshard.name=Fire Shard
+tile.zurthcraft:shardore.satanicshard.name=Satanic Shard
+tile.zurthcraft:shardore.watershard.name=Water Shard
+tile.zurthcraft:shardore.airshard.name=Air Shard
+tile.zurthcraft:shardore.voidshard.name=Void Shard
 container.alloysmelter=Alloy Smeltery
 entity.Zipp.name=Zipp
 
